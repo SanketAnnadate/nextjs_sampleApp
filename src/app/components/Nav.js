@@ -7,22 +7,22 @@ const Nav = () => {
       <div>
         <ul className={styles.navbarList}>
           <li className={styles.navbarItems}>
-            <Link className="{styles.navbarLink}" href="/Movie">
+            <Link className="{styles.navbarLink}" href="/">
               Home
             </Link>
           </li>
           <li className={styles.navbarItems}>
-            <Link className="{styles.navbarLink}" href="/Movie">
+            <Link className="{styles.navbarLink}" href="/about">
               About
             </Link>
           </li>
           <li className={styles.navbarItems}>
-            <Link className="{styles.navbarLink}" href="/Movie">
+            <Link className="{styles.navbarLink}" href="/movies">
               Movies
             </Link>
           </li>
           <li className={styles.navbarItems}>
-            <Link className="{styles.navbarLink}" href="/Movie">
+            <Link className="{styles.navbarLink}" href="/contact">
               Contacts
             </Link>
           </li>
